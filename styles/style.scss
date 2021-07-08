@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+/*bootstrap*/
+@import "./scss/bootstrap";
+
+
+/*style css*/
+
+#servicios{
+    height: 50vh;
+}
+
+.carrousel__lavado, .carrousel__tallerMecanico, .carrousel__detailing, .carrousel__tallerPintura {
+    height: 100%;
+}
+
+footer{
+    background-color: rgba(6, 6, 49, 0.733);
+}
+
+/*BEM*/
+.servicio__btn{
+    background-color: rgb(230, 230, 230);
+}
+
+.marcas__titulo{
+    color: rgb(211, 211, 211);
+}
+
+.marcas__sucursales--green{
+    text-decoration: green;
+}
+
+.nosotros__parrafo--bold{
+    font-weight: bold;
+}
+
+/*plan table*/
+
+
+/*redes*/
+.social {
+    position: fixed;
+    top:60px;
+    right: 0;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  .links a i {
+    font-size: 2rem;
+    padding: 0 0 10px;
+  }
+  .fb{
+      color: blue;
+  }
+  .tw{
+      color: rgb(116, 116, 255);
+  }
+
+  /*Keyframe*/
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+
+ header .imgPrincipal{
+    animation-duration: 2s;
+    animation-name: aparecer; 
+ }
+ 
+

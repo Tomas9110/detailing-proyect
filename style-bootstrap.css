@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#servicios{
+    height: 50vh;
+}
+
+footer{
+    background-color: rgba(6, 6, 49, 0.733);
+}
+
+.form-contacto{
+    color: gray;
+}
+
+.form-contacto{
+    height: 60vh;
+}
+
+/*redes*/
+.social {
+    position: fixed;
+    top:60px;
+    right: 0;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  .links a i {
+    font-size: 2rem;
+    padding: 0 0 10px;
+  }
+  .fb{
+      color: blue;
+  }
+  .tw{
+      color: rgb(116, 116, 255);
+  }
+
+  /*Keyframe*/
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+
+ header .imgPrincipal{
+    animation-duration: 2s;
+    animation-name: aparecer; 
+ }
+ 
