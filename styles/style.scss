@@ -7,11 +7,12 @@
 @import "./scss/bootstrap";
 
 
-/*style css*/
+/*style css
 
 #servicios{
     height: 50vh;
 }
+*/
 
 .carrousel__lavado, .carrousel__tallerMecanico, .carrousel__detailing, .carrousel__tallerPintura {
     height: 100%;
@@ -74,8 +75,11 @@ footer{
  }
 
  header .imgPrincipal{
-    animation-duration: 2s;
+    animation-duration: 4s;
     animation-name: aparecer; 
  }
  
 
+body {
+    font-family: 'Asap Condensed', sans-serif;
+}

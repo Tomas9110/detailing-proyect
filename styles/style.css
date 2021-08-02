@@ -11506,11 +11506,12 @@ fieldset:disabled .btn {
   }
 }
 
-/*style css*/
-#servicios {
-  height: 50vh;
-}
+/*style css
 
+#servicios{
+    height: 50vh;
+}
+*/
 .carrousel__lavado, .carrousel__tallerMecanico, .carrousel__detailing, .carrousel__tallerPintura {
   height: 100%;
 }
@@ -11590,9 +11591,13 @@ footer {
 }
 
 header .imgPrincipal {
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
   -webkit-animation-name: aparecer;
           animation-name: aparecer;
+}
+
+body {
+  font-family: 'Asap Condensed', sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
